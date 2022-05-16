@@ -1,0 +1,73 @@
+.sign-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.sign-form-container {
+  color: #fff;
+  width: 300px;
+  max-width: 100%;
+}
+
+.sign-switch {
+  display: flex;
+}
+
+.sign-switch > div {
+  padding: 10px;
+  background-color: #2D2F35;
+  flex: 1 1 50%;
+  cursor: pointer;
+  text-align: center;
+}
+
+.sign-switch > div.active {
+  background-color: #4E4E4E;
+}
+
+.sign-form-content-container {
+  padding: 20px 10px;
+  background-color: #4E4E4E;
+}
+.sign-form-content {
+  
+}
+
+
+
+.sign-label-title {
+  font-size: 14px;
+  padding: 4px 0;
+}
+
+.sign-form-error {
+  font-size: 12px;
+  line-height: 1.2em;
+  color: #ff7777;
+  min-height: calc(1.2em + 8px);
+  padding: 4px 0;
+}
+
+.sign-form-input {
+  width: 100%;
+  font: inherit;
+  padding: 4px;
+  border: none;
+  background-color: #b5b5b5;
+}
+
+.sign-button {
+  border: 0;
+  font-family: inherit;
+  font-size: 16px;
+  background-color:#2D2F35;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+}
